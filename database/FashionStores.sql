@@ -155,3 +155,15 @@ create table DoiHangChiTiet (
     foreign key(MaHoaDonChiTiet) references HoaDonChiTiet(MaHoaDonChiTiet)
 );
 go
+    
+insert into HoaDon(MaHoaDon, MaNV, MaKH, NgayTao, TongTien, TongTienKM, TongTienSauKM, TrangThai, GhiChu, MaSK) values
+('HD001', 'NV001', 'KH001', '2024-07-01', 1000000, 200000, 800000, N'Đã thanh toán', '', 'SK001'),
+('HD002', 'NV002', 'KH002', '2024-07-02', 200000, 50000, 150000, N'Đã thanh toán', '', 'SK002'),
+('HD003', 'NV003', 'KH003', '2024-07-03', 300000, 80000, 220000, N'Đã thanh toán', '', 'SK003'),
+('HD004', 'NV004', 'KH004', '2024-07-04', 400000, 90000, 310000, N'Đã thanh toán', '', 'SK004'),
+('HD005', 'NV005', 'KH005', '2024-07-05', 500000, 100000, 400000, N'Đã thanh toán', '', 'SK005'),
+('HD006', 'NV006', 'KH006', '2024-07-06', 600000, 120000, 480000, N'Đã thanh toán', '', 'SK006'),
+('HD007', 'NV007', 'KH007', '2024-07-07', 700000, 110000, 590000, N'Đã thanh toán', '', 'SK007'),
+('HD008', 'NV008', 'KH008', '2024-07-08', 800000, 105000, 695000, N'Đã thanh toán', '', 'SK008'),
+('HD009', 'NV009', 'KH009', '2024-07-09', 900000, 100000, 800000, N'Đã thanh toán', '', 'SK009'),
+('HD010', 'NV010', 'KH010', '2024-07-10', 700000, 112000, 588000, N'Đã thanh toán', '', 'SK010');
